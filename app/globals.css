@@ -130,3 +130,17 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+.pipe-flow {
+  animation: flowMove 1.2s linear infinite;
+}
+
+@keyframes flowMove {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: -18;
+  }
+}
